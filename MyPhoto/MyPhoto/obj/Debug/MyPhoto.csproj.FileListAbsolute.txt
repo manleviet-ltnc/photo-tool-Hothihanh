@@ -1,0 +1,9 @@
+D:\github\photo-tool-Hothihanh\MyPhoto\MyPhoto\obj\Debug\MyPhoto.csprojResolveAssemblyReference.cache
+D:\github\photo-tool-Hothihanh\MyPhoto\MyPhoto\obj\Debug\MyPhoto.Properties.Resources.resources
+D:\github\photo-tool-Hothihanh\MyPhoto\MyPhoto\obj\Debug\MyPhoto.csproj.GenerateResource.Cache
+D:\github\photo-tool-Hothihanh\MyPhoto\MyPhoto\obj\Debug\MyPhoto.csproj.CoreCompileInputs.cache
+D:\github\photo-tool-Hothihanh\MyPhoto\MyPhoto\bin\Debug\MyPhoto.exe
+D:\github\photo-tool-Hothihanh\MyPhoto\MyPhoto\bin\Debug\MyPhoto.pdb
+D:\github\photo-tool-Hothihanh\MyPhoto\MyPhoto\obj\Debug\MyPhoto.exe
+D:\github\photo-tool-Hothihanh\MyPhoto\MyPhoto\obj\Debug\MyPhoto.pdb
+D:\github\photo-tool-Hothihanh\MyPhoto\MyPhoto\obj\Debug\MyPhoto.MainForm.resources
