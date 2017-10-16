@@ -1,0 +1,2 @@
+C:\Users\toshiba\Documents\GitHub\photo-tool-Hothihanh\MyPhoto\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.csprojResolveAssemblyReference.cache
+C:\Users\toshiba\Documents\GitHub\photo-tool-Hothihanh\MyPhoto\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.csproj.CoreCompileInputs.cache

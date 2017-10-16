@@ -7,3 +7,12 @@ D:\github\photo-tool-Hothihanh\MyPhoto\MyPhoto\bin\Debug\MyPhoto.pdb
 D:\github\photo-tool-Hothihanh\MyPhoto\MyPhoto\obj\Debug\MyPhoto.exe
 D:\github\photo-tool-Hothihanh\MyPhoto\MyPhoto\obj\Debug\MyPhoto.pdb
 D:\github\photo-tool-Hothihanh\MyPhoto\MyPhoto\obj\Debug\MyPhoto.MainForm.resources
+C:\Users\toshiba\Documents\GitHub\photo-tool-Hothihanh\MyPhoto\MyPhoto\bin\Debug\MyPhoto.exe
+C:\Users\toshiba\Documents\GitHub\photo-tool-Hothihanh\MyPhoto\MyPhoto\bin\Debug\MyPhoto.pdb
+C:\Users\toshiba\Documents\GitHub\photo-tool-Hothihanh\MyPhoto\MyPhoto\obj\Debug\MyPhoto.csprojResolveAssemblyReference.cache
+C:\Users\toshiba\Documents\GitHub\photo-tool-Hothihanh\MyPhoto\MyPhoto\obj\Debug\MyPhoto.MainForm.resources
+C:\Users\toshiba\Documents\GitHub\photo-tool-Hothihanh\MyPhoto\MyPhoto\obj\Debug\MyPhoto.Properties.Resources.resources
+C:\Users\toshiba\Documents\GitHub\photo-tool-Hothihanh\MyPhoto\MyPhoto\obj\Debug\MyPhoto.csproj.GenerateResource.Cache
+C:\Users\toshiba\Documents\GitHub\photo-tool-Hothihanh\MyPhoto\MyPhoto\obj\Debug\MyPhoto.csproj.CoreCompileInputs.cache
+C:\Users\toshiba\Documents\GitHub\photo-tool-Hothihanh\MyPhoto\MyPhoto\obj\Debug\MyPhoto.exe
+C:\Users\toshiba\Documents\GitHub\photo-tool-Hothihanh\MyPhoto\MyPhoto\obj\Debug\MyPhoto.pdb
