@@ -25,7 +25,7 @@ namespace Manning.MyPhotoAlbum
             get
             {
                 if (_bitmap == null)
-                    _bitmap == new Bitmap(_fileName);
+                    _bitmap = new Bitmap(_fileName);
                 return _bitmap;
 
             }

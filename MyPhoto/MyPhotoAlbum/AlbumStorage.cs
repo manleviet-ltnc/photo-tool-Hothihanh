@@ -91,7 +91,7 @@ namespace Manning.MyPhotoAlbum
             Photograph p;
             do
             {
-                p = ReadAlbumV63(sr);
+                p = ReadPhotoV63(sr);
                 if (p != null)
                     album.Add(p);
 
