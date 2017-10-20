@@ -3,8 +3,10 @@
     "",
     "\\MyPhoto",
     "\\MyPhoto\\MyPhoto",
-    "\\MyPhoto\\MyPhotoAlbum"
+    "\\MyPhoto\\MyPhotoAlbum",
+    "\\MyPhoto\\MyPhotoControls",
+    "\\MyPhoto\\MyPhotoControls\\Properties"
   ],
-  "SelectedNode": "\\MyPhoto\\MyPhoto\\Program.cs",
-  "PreviewInSolutionExplorer": false
+  "SelectedNode": "\\MyPhoto\\MyPhotoAlbum",
+  "PreviewInSolutionExplorer": true
 }

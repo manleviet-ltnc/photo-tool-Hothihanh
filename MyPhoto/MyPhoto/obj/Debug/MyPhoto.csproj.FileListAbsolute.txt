@@ -19,3 +19,5 @@ C:\Users\toshiba\Documents\GitHub\photo-tool-Hothihanh\MyPhoto\MyPhoto\obj\Debug
 C:\Users\toshiba\Documents\GitHub\photo-tool-Hothihanh\MyPhoto\MyPhoto\bin\Debug\MyPhoto.exe.config
 C:\Users\toshiba\Documents\GitHub\photo-tool-Hothihanh\MyPhoto\MyPhoto\bin\Debug\MyPhotoAlbum.dll
 C:\Users\toshiba\Documents\GitHub\photo-tool-Hothihanh\MyPhoto\MyPhoto\bin\Debug\MyPhotoAlbum.pdb
+D:\github\photo-tool-Hothihanh\photo-tool-Hothihanh\MyPhoto\MyPhoto\obj\Debug\MyPhoto.exe
+D:\github\photo-tool-Hothihanh\photo-tool-Hothihanh\MyPhoto\MyPhoto\obj\Debug\MyPhoto.pdb
