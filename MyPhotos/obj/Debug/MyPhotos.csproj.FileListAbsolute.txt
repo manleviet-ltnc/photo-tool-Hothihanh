@@ -13,3 +13,19 @@ E:\Documents\Projects in Visual Studio\photo-tool-kimanh-haquang\MyPhotos\MyPhot
 E:\Documents\Projects in Visual Studio\photo-tool-kimanh-haquang\MyPhotos\MyPhotos\bin\Debug\MyPhotoControls.dll
 E:\Documents\Projects in Visual Studio\photo-tool-kimanh-haquang\MyPhotos\MyPhotos\bin\Debug\MyPhotoControls.pdb
 E:\Documents\Projects in Visual Studio\photo-tool-kimanh-haquang\MyPhotos\MyPhotos\obj\Debug\MyPhotos.SlideShowDialog.resources
+D:\github\photo-tool-Hothihanh\MyPhotos\bin\Debug\MyPhotos.exe.config
+D:\github\photo-tool-Hothihanh\MyPhotos\bin\Debug\MyPhotos.exe
+D:\github\photo-tool-Hothihanh\MyPhotos\bin\Debug\MyPhotos.pdb
+D:\github\photo-tool-Hothihanh\MyPhotos\bin\Debug\MyPhotoAlbum.dll
+D:\github\photo-tool-Hothihanh\MyPhotos\bin\Debug\MyPhotoControls.dll
+D:\github\photo-tool-Hothihanh\MyPhotos\bin\Debug\MyPhotoAlbum.pdb
+D:\github\photo-tool-Hothihanh\MyPhotos\bin\Debug\MyPhotoControls.pdb
+D:\github\photo-tool-Hothihanh\MyPhotos\obj\Debug\MyPhotos.csprojResolveAssemblyReference.cache
+D:\github\photo-tool-Hothihanh\MyPhotos\obj\Debug\MyPhotos.MainForm.resources
+D:\github\photo-tool-Hothihanh\MyPhotos\obj\Debug\MyPhotos.ParentForm.resources
+D:\github\photo-tool-Hothihanh\MyPhotos\obj\Debug\MyPhotos.Properties.Resources.resources
+D:\github\photo-tool-Hothihanh\MyPhotos\obj\Debug\MyPhotos.SlideShowDialog.resources
+D:\github\photo-tool-Hothihanh\MyPhotos\obj\Debug\MyPhotos.csproj.GenerateResource.Cache
+D:\github\photo-tool-Hothihanh\MyPhotos\obj\Debug\MyPhotos.csproj.CoreCompileInputs.cache
+D:\github\photo-tool-Hothihanh\MyPhotos\obj\Debug\MyPhotos.exe
+D:\github\photo-tool-Hothihanh\MyPhotos\obj\Debug\MyPhotos.pdb

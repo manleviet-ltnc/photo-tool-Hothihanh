@@ -31,11 +31,31 @@ namespace MyPhotos
             NewAlbum();
         }
 
+        public MainForm(string path, string pwd) : this()
+        {
+            Manager = new AlbumManager(path, pwd);
+        }
+
         private PixelDialog _dlgPixel = null;
         private PixelDialog PixelForm
         {
             get { return _dlgPixel; }
             set { _dlgPixel = value; }
+        }
+
+        internal ToolStrip MainToolStrip
+        {
+            get { return toolStripMain; }
+        }
+
+        public string AlbumPath
+        {
+            get { return Manager.FullName; }
+        }
+
+        public string AlbumTitle
+        {
+            get { return Manager.Album.Title; }
         }
 
         private void NewAlbum()
@@ -323,7 +343,7 @@ namespace MyPhotos
         {
             if (PixelForm == null || PixelForm.IsDisposed)
             {
-                PixelForm = new PixelDialog();
+                PixelForm = PixelDialog.GlobalInstance;
                 PixelForm.Owner = this;
             }
 
@@ -335,6 +355,9 @@ namespace MyPhotos
 
         private void UpdatePixelDialog(int x, int y)
         {
+            if (IsMdiChild)
+                PixelForm = PixelDialog.GlobalInstance;
+
             if (PixelForm != null && PixelForm.Visible)
             {
                 Bitmap bmp = Manager.CurrentImage;
@@ -436,16 +459,17 @@ namespace MyPhotos
 
         protected override void OnLoad(EventArgs e)
         {
-            tsbNew.Tag = mnuFileNew;
-            tsbOpen.Tag = mnuFileOpen;
-            tsbSave.Tag = mnuFileSave;
-            tsbPrint.Tag = mnuFilePrint;
-            tsbCut.Tag = mnuEditCut;
-            tsbCopy.Tag = mnuEditCopy;
-            tsbPaste.Tag = mnuEditPaste;
-            tsbPrevious.Tag = mnuPrevious;
-            tsbNext.Tag = mnuNext;
-            tsbHelp.Tag = mnuHelpAbout;
+            this.tsbNew.Tag = mnuFileNew;
+            this.tsbOpen.Tag = mnuFileOpen;
+            this.tsbSave.Tag = mnuFileSave;
+            this.tsbPrint.Tag = mnuFilePrint;
+            this.tsbCut.Tag = mnuEditCut;
+            this.tsbCopy.Tag = mnuEditCopy;
+            this.tsbPaste.Tag = mnuEditPaste;
+            this.tsbHelp.Tag = mnuHelpAbout;
+
+            this.tsbPrevious.Tag = mnuPrevious;
+            this.tsbNext.Tag = mnuNext;
 
             toolStripMain.ImageList = imageListArrows;
             tsbPrevious.ImageIndex = 1;
@@ -456,6 +480,19 @@ namespace MyPhotos
             tsbPixelData.Tag = tsbPixelData.Image;
 
             tsdImage.DropDown = mnuImage.DropDown;
+
+            if (IsMdiChild)
+            {
+                menuStrip.Visible = false;
+                DisplayAlbum();
+            }
+
+            if (this.IsMdiChild)
+            {
+                menuStrip.Visible = false;
+                toolStripMain.Visible = false;
+                DisplayAlbum();
+            }
 
             base.OnLoad(e);
         }
@@ -528,6 +565,13 @@ namespace MyPhotos
                 tssSelect.DropDown = drop;
                 tssSelect.DefaultItem = drop.Items[0];
             }
+        }
+
+        protected override void OnEnter(EventArgs e)
+        {
+            if (IsMdiChild)
+                UpdatePixelButton(PixelDialog.GlobalInstance.Visible);
+            base.OnEnter(e);
         }
     }
 }
