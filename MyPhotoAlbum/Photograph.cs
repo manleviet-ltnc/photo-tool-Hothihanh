@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Drawing;
+using System.ComponentModel;
 
 namespace Manning.MyPhotoAlbum
 {
@@ -11,8 +12,22 @@ namespace Manning.MyPhotoAlbum
     /// The photograph class represents a photographic
     /// image stored in the file system
     /// </summary>
-    public class Photograph : IDisposable, IFormattable
+    public class Photograph : IDisposable, IFormattable, IEditableObject
     {
+        private bool _editing = false;
+        internal bool Editing
+        {
+            get { return _editing; }
+            private set { _editing = value; }
+        }
+
+        private string _savedCaption;
+        private string _savedPhotographer;
+        private DateTime _savedDateTaken;
+        private string _savedNotes;
+
+        public event EventHandler Modified;
+
         private string _fileName;
         public string FileName
         {
@@ -39,7 +54,8 @@ namespace Manning.MyPhotoAlbum
                 if (_caption != value)
                 {
                     _caption = value;
-                    _hasChanged = true;
+                    HasChanged = true;
+                    //OnModified(EventArgs.Empty);
                 }
             }
         }
@@ -53,7 +69,8 @@ namespace Manning.MyPhotoAlbum
                 if (_photographer != value)
                 {
                     _photographer = value;
-                    _hasChanged = true;
+                    HasChanged = true;
+                    //OnModified(EventArgs.Empty);
                 }
             }
         }
@@ -67,7 +84,8 @@ namespace Manning.MyPhotoAlbum
                 if (_dateTaken != value)
                 {
                     _dateTaken = value;
-                    _hasChanged = true;
+                    HasChanged = true;
+                    //OnModified(EventArgs.Empty);
                 }
             }
         }
@@ -81,7 +99,8 @@ namespace Manning.MyPhotoAlbum
                 if (_notes != value)
                 {
                     _notes = value;
-                    _hasChanged = true;
+                    HasChanged = true;
+                    //OnModified(EventArgs.Empty);
                 }
             }
         }
@@ -163,6 +182,48 @@ namespace Manning.MyPhotoAlbum
         public void Dispose()
         {
             ReleaseImage();
+        }
+
+        protected virtual void OnModified(EventArgs e)
+        {
+            if (Modified != null)
+                Modified(this, e);
+        }
+
+        public void BeginEdit()
+        {
+            if (!Editing)
+            {
+                _savedCaption = Caption;
+                _savedPhotographer = Photographer;
+                _savedDateTaken = DateTaken;
+                _savedNotes = Notes;
+                Editing = true;
+            }
+        }
+
+        public void EndEdit()
+        {
+            if (Editing)
+            {
+                Editing = false;
+                OnModified(EventArgs.Empty);
+            }
+        }
+
+        public void CancelEdit()
+        {
+            if (Editing)
+            {
+                Caption = _savedCaption;
+                Photographer = _savedPhotographer;
+                DateTaken = _savedDateTaken;
+                Notes = _savedNotes;
+                Editing = false;
+
+                HasChanged = false;
+                OnModified(EventArgs.Empty);
+            }
         }
     }
 }

@@ -4,10 +4,11 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.ComponentModel;
 
 namespace Manning.MyPhotoAlbum
 {
-    public class PhotoAlbum : Collection<Photograph>, IDisposable
+    public class PhotoAlbum : BindingList<Photograph>, IDisposable
     {
         public enum DescriptorOption { FileName, Caption, DateTaken }
 
@@ -88,6 +89,9 @@ namespace Manning.MyPhotoAlbum
         {
             if (Count > 0)
             {
+                foreach (Photograph p in this)
+                    p.Modified -= photo_Modified;
+
                 Dispose();
                 base.ClearItems();
                 HasChanged = true;
@@ -96,21 +100,35 @@ namespace Manning.MyPhotoAlbum
 
         protected override void InsertItem(int index, Photograph item)
         {
+            item.Modified += photo_Modified;
             base.InsertItem(index, item);
             HasChanged = true;
         }
 
         protected override void RemoveItem(int index)
         {
-            Items[index].Dispose();
+            Photograph p = Items[index];
+            p.Modified -= photo_Modified;
             base.RemoveItem(index);
+            p.ReleaseImage();
             HasChanged = true;
         }
 
         protected override void SetItem(int index, Photograph item)
         {
+            item.Modified += photo_Modified;
             base.SetItem(index, item);
             HasChanged = true;
+        }
+
+        private void photo_Modified(object sender, EventArgs e)
+        {
+            Photograph photo = sender as Photograph;
+            if (photo != null)
+            {
+                int index = IndexOf(photo);
+                ResetItem(index);
+            }
         }
 
         public void Dispose()
