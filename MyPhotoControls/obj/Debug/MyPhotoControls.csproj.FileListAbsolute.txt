@@ -26,3 +26,17 @@ D:\github\photo-tool-Hothihanh\MyPhotoControls\bin\Debug\MyPhotoAlbum.dll
 D:\github\photo-tool-Hothihanh\MyPhotoControls\bin\Debug\MyPhotoAlbum.pdb
 D:\github\photo-tool-Hothihanh\MyPhotoControls\obj\Debug\MyPhotoControls.dll
 D:\github\photo-tool-Hothihanh\MyPhotoControls\obj\Debug\MyPhotoControls.pdb
+C:\Users\toshiba\Documents\GitHub\photo-tool-Hothihanh\MyPhotoControls\bin\Debug\MyPhotoControls.dll
+C:\Users\toshiba\Documents\GitHub\photo-tool-Hothihanh\MyPhotoControls\bin\Debug\MyPhotoControls.pdb
+C:\Users\toshiba\Documents\GitHub\photo-tool-Hothihanh\MyPhotoControls\bin\Debug\MyPhotoAlbum.dll
+C:\Users\toshiba\Documents\GitHub\photo-tool-Hothihanh\MyPhotoControls\bin\Debug\MyPhotoAlbum.pdb
+C:\Users\toshiba\Documents\GitHub\photo-tool-Hothihanh\MyPhotoControls\obj\Debug\MyPhotoControls.csprojResolveAssemblyReference.cache
+C:\Users\toshiba\Documents\GitHub\photo-tool-Hothihanh\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.AlbumEditDialog.resources
+C:\Users\toshiba\Documents\GitHub\photo-tool-Hothihanh\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.AlbumPasswordDialog.resources
+C:\Users\toshiba\Documents\GitHub\photo-tool-Hothihanh\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.BaseEditDialog.resources
+C:\Users\toshiba\Documents\GitHub\photo-tool-Hothihanh\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.PhotoEditDialog.resources
+C:\Users\toshiba\Documents\GitHub\photo-tool-Hothihanh\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.PixelDialog.resources
+C:\Users\toshiba\Documents\GitHub\photo-tool-Hothihanh\MyPhotoControls\obj\Debug\MyPhotoControls.csproj.GenerateResource.Cache
+C:\Users\toshiba\Documents\GitHub\photo-tool-Hothihanh\MyPhotoControls\obj\Debug\MyPhotoControls.csproj.CoreCompileInputs.cache
+C:\Users\toshiba\Documents\GitHub\photo-tool-Hothihanh\MyPhotoControls\obj\Debug\MyPhotoControls.dll
+C:\Users\toshiba\Documents\GitHub\photo-tool-Hothihanh\MyPhotoControls\obj\Debug\MyPhotoControls.pdb

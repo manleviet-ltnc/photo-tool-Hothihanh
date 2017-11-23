@@ -22,5 +22,29 @@ namespace MyPhotos.Properties {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0, 0")]
+        public global::System.Drawing.Point ParentLocation {
+            get {
+                return ((global::System.Drawing.Point)(this["ParentLocation"]));
+            }
+            set {
+                this["ParentLocation"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string LastAlbumPath {
+            get {
+                return ((string)(this["LastAlbumPath"]));
+            }
+            set {
+                this["LastAlbumPath"] = value;
+            }
+        }
     }
 }

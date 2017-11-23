@@ -10,3 +10,9 @@ D:\github\photo-tool-Hothihanh\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.csprojResolve
 D:\github\photo-tool-Hothihanh\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.csproj.CoreCompileInputs.cache
 D:\github\photo-tool-Hothihanh\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.dll
 D:\github\photo-tool-Hothihanh\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.pdb
+C:\Users\toshiba\Documents\GitHub\photo-tool-Hothihanh\MyPhotoAlbum\bin\Debug\MyPhotoAlbum.dll
+C:\Users\toshiba\Documents\GitHub\photo-tool-Hothihanh\MyPhotoAlbum\bin\Debug\MyPhotoAlbum.pdb
+C:\Users\toshiba\Documents\GitHub\photo-tool-Hothihanh\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.csprojResolveAssemblyReference.cache
+C:\Users\toshiba\Documents\GitHub\photo-tool-Hothihanh\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.csproj.CoreCompileInputs.cache
+C:\Users\toshiba\Documents\GitHub\photo-tool-Hothihanh\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.dll
+C:\Users\toshiba\Documents\GitHub\photo-tool-Hothihanh\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.pdb
